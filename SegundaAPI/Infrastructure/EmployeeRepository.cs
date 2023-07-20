@@ -17,5 +17,10 @@ namespace SegundaAPI.Infrastructure
         {
             return _context.Employees.ToList();
         }
+
+        public Employee? Get(int id)
+        {
+            return _context.Employees.Find(id);
+        }
     }
 }
