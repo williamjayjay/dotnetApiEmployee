@@ -43,3 +43,16 @@ C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\Np
 C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
 C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\System.Web.Http.dll
+C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\System.Web.Http.WebHost.dll
+C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

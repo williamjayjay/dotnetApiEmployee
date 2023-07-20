@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SegundaAPI.Model;
 using SegundaAPI.ViewModel;
 
@@ -15,6 +16,7 @@ namespace SegundaAPI.Controllers
             _employeeRepository = employeeRepository ?? throw new ArgumentNullException(nameof(employeeRepository));
         }
 
+        [Authorize]
         [HttpPost]
         public IActionResult Add([FromForm] EmployeeViewModel employeeView)
         {
@@ -30,6 +32,7 @@ namespace SegundaAPI.Controllers
             return Ok();
         }
 
+        [Authorize]
         [HttpGet]
         [Route("{id}/download")]    
         public IActionResult DownloadPhoto(int id)
@@ -41,6 +44,7 @@ namespace SegundaAPI.Controllers
             return File(dataBytes, "image/png");
         }
 
+        [Authorize]
         [HttpGet]
         public IActionResult Get()
         {
