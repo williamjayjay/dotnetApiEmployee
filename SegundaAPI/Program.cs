@@ -74,8 +74,15 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    //app.UseExceptionHandler("/error-development"); //Error para develop
+    app.UseExceptionHandler("/error");
     app.UseSwagger();
     app.UseSwaggerUI();
+}
+else
+{
+    app.UseExceptionHandler("/error");
+    //Error para producao
 }
 
 app.UseHttpsRedirection();
