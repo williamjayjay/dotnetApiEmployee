@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SegundaAPI.Model;
+using SegundaAPI.Domain.Model;
 
 namespace SegundaAPI.Infrastructure
 {

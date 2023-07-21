@@ -1,4 +1,4 @@
-﻿namespace SegundaAPI.ViewModel
+﻿namespace SegundaAPI.Application.ViewModel
 {
     public class EmployeeViewModel
     {

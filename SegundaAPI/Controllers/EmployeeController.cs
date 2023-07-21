@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SegundaAPI.Model;
-using SegundaAPI.ViewModel;
+using SegundaAPI.Application.ViewModel;
+using SegundaAPI.Domain.Model;
 
 namespace SegundaAPI.Controllers
 {
@@ -52,7 +52,7 @@ namespace SegundaAPI.Controllers
         {
             _logger.Log(LogLevel.Error, "Teve um erro");
 
-            throw new Exception("Erro proposital, teste");
+           // throw new Exception("Erro proposital, teste");
 
             var employees = _employeeRepository.Get(pageNumber, pageQuantity);
 

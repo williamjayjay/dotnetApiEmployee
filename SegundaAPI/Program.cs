@@ -3,8 +3,8 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using SegundaAPI;
-using SegundaAPI.Infrastructure;
-using SegundaAPI.Model;
+using SegundaAPI.Domain.Model;
+using SegundaAPI.Infrastructure.Repositories;
 using System.Text;
 
 

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SegundaAPI.Model;
-using SegundaAPI.Services;
+using SegundaAPI.Application.Services;
+using SegundaAPI.Domain.Model;
 
 namespace SegundaAPI.Controllers
 {
