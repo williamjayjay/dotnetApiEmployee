@@ -1,11 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SegundaAPI.Domain.Model;
+using SegundaAPI.Domain.Model.CompanyAggregate;
+using SegundaAPI.Domain.Model.EmployeeAggregate;
 
 namespace SegundaAPI.Infrastructure
 {
     public class ConnectionContext : DbContext
     {
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Company> Company { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder.UseNpgsql(

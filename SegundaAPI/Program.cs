@@ -4,7 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using SegundaAPI;
 using SegundaAPI.Application.Mapper;
-using SegundaAPI.Domain.Model;
+using SegundaAPI.Domain.Model.EmployeeAggregate;
 using SegundaAPI.Infrastructure.Repositories;
 using System.Text;
 

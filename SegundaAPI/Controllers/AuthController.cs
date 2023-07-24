@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SegundaAPI.Application.Services;
 using SegundaAPI.Domain.Model;
+using SegundaAPI.Domain.Model.EmployeeAggregate;
 
 namespace SegundaAPI.Controllers
 {

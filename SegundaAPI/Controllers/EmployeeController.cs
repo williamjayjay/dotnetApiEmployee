@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SegundaAPI.Application.ViewModel;
 using SegundaAPI.Domain.DTOs;
-using SegundaAPI.Domain.Model;
+using SegundaAPI.Domain.Model.EmployeeAggregate;
 
 namespace SegundaAPI.Controllers
 {

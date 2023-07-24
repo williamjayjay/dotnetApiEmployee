@@ -6,11 +6,24 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace SegundaAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class FirstMigration : Migration
+    public partial class InitialFirstMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "company",
+                columns: table => new
+                {
+                    ID = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Nome = table.Column<string>(type: "text", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_company", x => x.ID);
+                });
+
             migrationBuilder.CreateTable(
                 name: "employee",
                 columns: table => new
@@ -30,6 +43,9 @@ namespace SegundaAPI.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "company");
+
             migrationBuilder.DropTable(
                 name: "employee");
         }

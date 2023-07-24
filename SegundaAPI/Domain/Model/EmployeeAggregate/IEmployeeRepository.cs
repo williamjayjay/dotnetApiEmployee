@@ -1,6 +1,6 @@
 ﻿using SegundaAPI.Domain.DTOs;
 
-namespace SegundaAPI.Domain.Model
+namespace SegundaAPI.Domain.Model.EmployeeAggregate
 {
     public interface IEmployeeRepository
     {

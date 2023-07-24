@@ -1,5 +1,5 @@
 ﻿using SegundaAPI.Domain.DTOs;
-using SegundaAPI.Domain.Model;
+using SegundaAPI.Domain.Model.EmployeeAggregate;
 
 namespace SegundaAPI.Infrastructure.Repositories
 {
