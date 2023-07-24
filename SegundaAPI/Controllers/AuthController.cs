@@ -7,6 +7,8 @@ namespace SegundaAPI.Controllers
 {
     [ApiController]
     [Route("api/v1/auth")]
+    [ApiVersion("1.0")]
+   
     public class AuthController : Controller
     {
         [HttpPost]
