@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "047BMITequ1yUbfC8Mf25iPV9gJXa3PBrhx73ZWfYkX6jcKHyfrk3IJW+MGL8PEN88ABCCmEwxI2Jyd9R2LpSw==",
+  "dgSpecHash": "od6CiN8pvuQCYKoSls54tZzTnDTNwEXz3vcE86e5eyn4PzEs4/dvCt0rQi5eNanAB7P4LvaDcbdKUS4NPJrEZg==",
   "success": true,
   "projectFilePath": "C:\\Users\\luta_\\Documents\\repo-vssutido\\SegundaAPI\\SegundaAPI\\SegundaAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\luta_\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\luta_\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\luta_\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\luta_\\.nuget\\packages\\microsoft.aspnet.webapi\\5.2.9\\microsoft.aspnet.webapi.5.2.9.nupkg.sha512",
     "C:\\Users\\luta_\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
@@ -11,7 +13,7 @@
     "C:\\Users\\luta_\\.nuget\\packages\\microsoft.aspnet.webapi.webhost\\5.2.9\\microsoft.aspnet.webapi.webhost.5.2.9.nupkg.sha512",
     "C:\\Users\\luta_\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.9\\microsoft.aspnetcore.authentication.jwtbearer.7.0.9.nupkg.sha512",
     "C:\\Users\\luta_\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
-    "C:\\Users\\luta_\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\luta_\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\luta_\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
     "C:\\Users\\luta_\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.9\\microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",
     "C:\\Users\\luta_\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.9\\microsoft.entityframeworkcore.analyzers.7.0.9.nupkg.sha512",

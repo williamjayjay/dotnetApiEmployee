@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SegundaAPI.Application.ViewModel;
+using SegundaAPI.Domain.DTOs;
 using SegundaAPI.Domain.Model;
 
 namespace SegundaAPI.Controllers
@@ -11,11 +13,13 @@ namespace SegundaAPI.Controllers
     {
         private readonly IEmployeeRepository _employeeRepository;
         private readonly ILogger<EmployeeController> _logger;
+        private readonly IMapper _mapper;
 
-        public EmployeeController(IEmployeeRepository employeeRepository, ILogger<EmployeeController> logger)
+        public EmployeeController(IEmployeeRepository employeeRepository, ILogger<EmployeeController> logger, IMapper mapper)
         {
             _employeeRepository = employeeRepository ?? throw new ArgumentNullException(nameof(employeeRepository));
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
         [Authorize]
@@ -59,6 +63,19 @@ namespace SegundaAPI.Controllers
             _logger.LogInformation("Teste");
 
             return Ok(employees);
+        }
+
+        //[Authorize]
+        [HttpGet]
+        [Route("{id}")]
+        public IActionResult Search(int id)
+        {
+
+            var employees = _employeeRepository.Get(id);
+
+            var employeesDTOS = _mapper.Map<EmployeeDTO>(employees);
+
+            return Ok(employeesDTOS);
         }
     }
 }

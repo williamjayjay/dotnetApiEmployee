@@ -56,3 +56,5 @@ C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\Mi
 C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
 C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\luta_\Documents\repo-vssutido\SegundaAPI\SegundaAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
