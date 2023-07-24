@@ -5,10 +5,11 @@ using SegundaAPI.Application.ViewModel;
 using SegundaAPI.Domain.DTOs;
 using SegundaAPI.Domain.Model.EmployeeAggregate;
 
-namespace SegundaAPI.Controllers
+namespace SegundaAPI.Controllers.v2
 {
     [ApiController]
-    [Route("api/v1/employee")]
+    [Route("api/v{version:apiVersion}/employee")]
+    [ApiVersion("2.0")]
     public class EmployeeController : ControllerBase
     {
         private readonly IEmployeeRepository _employeeRepository;
@@ -52,7 +53,7 @@ namespace SegundaAPI.Controllers
 
         //[Authorize]
         [HttpGet]
-        public IActionResult Get(int pageNumber, int pageQuantity)
+        public IActionResult Get(int pageNumber = 0, int pageQuantity = 10)
         {
             _logger.Log(LogLevel.Error, "Teve um erro");
 

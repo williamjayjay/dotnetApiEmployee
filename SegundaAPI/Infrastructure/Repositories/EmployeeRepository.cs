@@ -14,7 +14,7 @@ namespace SegundaAPI.Infrastructure.Repositories
             _context.SaveChanges();
         }
 
-        public List<EmployeeDTO> Get(int pageNumber, int pageQuantity)
+        public List<EmployeeDTO> Get(int pageNumber, int pageQuantity )
         {
             return _context.Employees.Skip(pageNumber * pageQuantity)
                 .Take(pageQuantity)
